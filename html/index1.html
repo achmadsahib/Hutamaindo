@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>HUTAMAINDO | Tahu Putih Sehat</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+    <style>
+      body {
+        font-family: "Segoe UI", sans-serif;
+        background-color: #fffbea;
+      }
+      .hero {
+        padding: 80px 0;
+        background: #fffbea;
+      }
+      /* Tambahkan kode CSS ini */
+      .hero .col-md-6 img {
+        max-height: 450px; /* Sesuaikan nilai ini sesuai keinginan Anda */
+        width: 100%; /* Pastikan gambar mengisi lebar kolom */
+        object-fit: cover; /* Penting: memastikan gambar mengisi area yang ditentukan tanpa distorsi, memotong bagian yang berlebih jika perlu */
+      }
+      /* Akhir kode CSS yang ditambahkan */
+      .benefit-icon {
+        font-size: 40px;
+        color: #eab308;
+      }
+      .feature-card img {
+        height: 200px;
+        object-fit: cover;
+      }
+      .testimonial {
+        background: #fff3d1;
+        padding: 40px;
+        border-radius: 10px;
+      }
+      footer {
+        background: #92400e;
+        color: #fff;
+        padding: 40px 0;
+      }
+      .btn-custom {
+        background-color: #eab308;
+        color: white;
+        border: none;
+      }
+      .btn-custom:hover {
+        background-color: #d4a207;
+      }
+      .navbar {
+        background-color: #eab308 !important;
+      }
+      /* ... kode CSS lainnya ... */
+
+      .feature-card img {
+        height: 250px; /* Nilai height yang sudah disesuaikan sebelumnya */
+        object-fit: cover;
+        max-width: 100%; /* Gambar tidak akan lebih lebar dari 80% dari lebar parent-nya */
+        display: block; /* Penting untuk mengaktifkan margin auto */
+        margin: 0 auto; /* Untuk menempatkan gambar di tengah secara horizontal */
+      }
+
+      /* ... kode CSS lainnya ... */
+    </style>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">HUTAMAINDO</a>
+      </div>
+    </nav>
+
+    <!-- Hero -->
+    <section class="hero" id="home">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-6" data-aos="fade-right">
+            <h1 class="fw-bold">Tahu Putih Sehat Berkualitas</h1>
+            <p>Pabrik Tahu Putih Sehat dan Berkualitas</p>
+            <a href="#contact" class="btn btn-custom">Hubungi Kami</a>
+          </div>
+          <div class="col-md-6 text-center" data-aos="zoom-in">
+            <img
+              src="../img/putih.jpg"
+              class="img-fluid rounded shadow"
+              alt="Tahu Putih"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Key Benefits -->
+    <section class="py-5" style="background-color: #fff3d1">
+      <div class="container">
+        <h2 class="text-center mb-4" data-aos="fade-up">
+          Keunggulan Produk Kami
+        </h2>
+        <div class="row text-center">
+          <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="benefit-icon mb-2">1</div>
+            <h5>Bahan Alami</h5>
+            <p>Tahu dibuat dari kedelai pilihan tanpa tambahan bahan kimia.</p>
+          </div>
+          <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+            <div class="benefit-icon mb-2">2</div>
+            <h5>Sertifikat HALAL & BPOM</h5>
+            <p>Telah melalui uji kualitas dan proses sertifikasi resmi.</p>
+          </div>
+          <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
+            <div class="benefit-icon mb-2">3</div>
+            <h5>Tahan Segar</h5>
+            <p>Tetap segar hingga 3 hari tanpa pengawet buatan.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Produk -->
+    <section class="py-5">
+      <div class="container">
+        <h2 class="text-center mb-4" data-aos="fade-up">Produk Unggulan</h2>
+        <div class="row justify-content-center">
+          <div class="col-md-6" data-aos="zoom-in">
+            <div class="card shadow feature-card">
+              <img
+                src="../img/pexels-lara-jameson-9324367.jpg"
+                class="card-img-top"
+                alt="Produk Tahu"
+              />
+              <div class="card-body text-center">
+                <h5 class="card-title">Tahu Putih Sehat</h5>
+                <p class="card-text">
+                  Cocok untuk konsumsi harian, kaya nutrisi, dan tanpa bahan
+                  tambahan.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimoni -->
+    <section class="py-5" style="background-color: #fff3d1">
+      <div class="container">
+        <h2 class="text-center mb-4" data-aos="fade-up">Apa Kata Mereka</h2>
+        <div class="row justify-content-center">
+          <div class="col-md-8">
+            <div class="testimonial" data-aos="fade-up">
+              <p>
+                "Saya selalu beli tahu dari HUTAMAINDO karena rasanya segar dan
+                aman untuk keluarga. Sekarang nggak perlu khawatir soal
+                pengawet."
+              </p>
+              <p class="text-end fw-bold mb-0">- Ibu Sari, Pelanggan</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Kontak -->
+    <section class="py-5" id="contact">
+      <div class="container">
+        <h2 class="text-center mb-4" data-aos="fade-up">Hubungi Kami</h2>
+        <div class="row">
+          <div class="col-md-6" data-aos="fade-right">
+            <ul class="list-unstyled">
+              <li><strong>Alamat:</strong> Jl. Contoh No. 123, Kota Anda</li>
+              <li><strong>Telepon:</strong> 0812-3456-7890</li>
+              <li><strong>Email:</strong> info@hutamaindo.com</li>
+              <li class="mt-3">
+                <a
+                  href="https://wa.me/6281818799516"
+                  class="btn btn-custom"
+                  target="_blank"
+                  >Chat via WhatsApp</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-6" data-aos="fade-left">
+            <div class="ratio ratio-16x9">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3163.061622560363!2d107.609811!3d-6.914864!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e7bf0f2e7a3f%3A0x123456789abcdef!2sBandung%2C%20Indonesia!5e0!3m2!1sid!2sid!4v1650000000000!5m2!1sid!2sid"
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container text-center">
+        <p>&copy; 2025 HUTAMAINDO</p>
+        <p>
+          <a href="#" class="text-white me-3">Facebook</a>
+          <a href="#" class="text-white me-3">Instagram</a>
+          <a href="#" class="text-white">YouTube</a>
+        </p>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+    <script>
+      AOS.init({ duration: 1000, once: true });
+    </script>
+  </body>
+</html>
